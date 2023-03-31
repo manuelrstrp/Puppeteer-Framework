@@ -1,0 +1,24 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit __test__/reservaUnVuelo.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "jest-html-reporter": "^3.7.1",
+    "jest-puppeteer": "^8.0.6",
+    "puppeteer": "^19.8.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7"
+  }
+}
